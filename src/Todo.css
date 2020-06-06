@@ -1,0 +1,36 @@
+.todo {
+    background: rgb(8, 134, 240);
+    color: white;
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color: rgb(8, 134, 240);
+    margin: 15px;
+    height: 45px;
+    border-radius: 30px;
+    max-height: fit-content;
+    padding: 0 10px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    
+  
+  }
+  
+  .DelTodoBtn {
+    background-image: url("Recycle-Bin.png");
+    /* Center the image */
+    background-position: center;
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    /* Resize the background image to cover the entire container */
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+  
+  }
+  
