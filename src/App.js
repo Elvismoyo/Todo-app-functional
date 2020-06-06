@@ -64,14 +64,14 @@ function App() {
   
 <div className="App">
       
-  <div className="todoTitle"><h1>TODO APP</h1></div>
+  <div className="todoTitle"><h1>TO DO APP</h1></div>
     <form>
       <input
         value={input} 
         onChange={e => setInput(e.target.value)}
         
         type="text"
-        placeholder = "Write a TODO..." 
+        placeholder = "Write a TO DO..." 
       ></input> 
       <button
         className="AddTodoBtn"
