@@ -4,7 +4,7 @@ import Todo from './Todo.js';
 import db from "./firebase";
 import { v4 as uuidv4 } from 'uuid';
 
-let indSta=0;
+
 let amount=0;
 var someVarName = amount;
 
@@ -82,7 +82,7 @@ function App() {
         onClick={handleSubmit}>
         
       </button>  
-  <h3>You have {amount} TODO(s) left</h3>
+  
 <div className="todosContainer">
   {    
         todos.map((todo,index) => (
